@@ -3,7 +3,6 @@ def main():
         processed_text = _read()
         _write(processed_text)
         print('Task is completed!')
-        # print(processed_text)
     except Exception as e:
         print(f'Error: {e}')
 
