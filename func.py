@@ -1,11 +1,11 @@
 def main():
     try:
-        function()
+        _write()
         print('Task is completed!')
     except Exception as e:
         print(f'Error: {e}')
 
-def function():
+def _write():
     with open('assets/original_file.txt', 'r') as read_:
         with open('assets/processed_file.txt', 'w') as write_:
             lines = read_.readlines()
